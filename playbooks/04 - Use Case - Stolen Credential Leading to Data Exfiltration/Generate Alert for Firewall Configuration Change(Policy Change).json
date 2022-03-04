@@ -4,7 +4,7 @@
     "name": "Generate Alert for Firewall Configuration Change(Policy Change)",
     "aliasName": null,
     "tag": null,
-    "description": "Generates alert from FortiSIEM incident",
+    "description": "Generates alert from FortiSIEM incident where an attacker gains initial access to the network and make firewall configuration change by changing firewall policy",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,

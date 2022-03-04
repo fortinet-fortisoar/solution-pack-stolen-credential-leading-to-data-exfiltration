@@ -29,7 +29,7 @@
     "supportInfo": "support@fortinet.com",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-03-04T09:37:12+00:00",
+    "date": "2022-03-04T09:44:18+00:00",
     "exported_from": "fortisoar.localhost",
     "exported_by": "CS Admin",
     "contents": {
@@ -51,7 +51,6 @@
                 "name": "04 - Use Case - Stolen Credential Leading to Data Exfiltration"
             }
         ],
-        "globalVariables": [],
         "recordSets": {
             "scenario": 1
         }

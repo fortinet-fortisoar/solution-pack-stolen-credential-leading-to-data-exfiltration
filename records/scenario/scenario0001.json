@@ -1,7 +1,7 @@
 [
     {
         "@type": "Scenario",
-        "createdAlertsID": "[\"\/api\/3\/alerts\/7252e78b-3704-4f1f-8a93-1678fa95be9e\",\"\/api\/3\/alerts\/065a5135-bdbc-4fa4-b159-5fb75e98daf3\",\"\/api\/3\/alerts\/bed81c53-a9a2-406c-bab1-61a58d72ae3f\",\"\/api\/3\/alerts\/59515d66-3818-4540-9262-c6bc791d8030\",\"\/api\/3\/alerts\/282a8d34-e007-4933-8d5b-618908c34749\",\"\/api\/3\/alerts\/7da374e3-51ca-4001-ba3b-86949762ee9d\",\"\/api\/3\/alerts\/4abd92d9-604c-46f5-bcb0-506bcbea8f54\"]",
+        "createdAlertsID": null,
         "steps": {
             "Steps": [
                 {

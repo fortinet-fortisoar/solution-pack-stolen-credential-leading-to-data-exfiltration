@@ -4,7 +4,7 @@
     "name": "Generate Alert for Persistence(Schedule Task)",
     "aliasName": null,
     "tag": null,
-    "description": "Generates alert from FortiSIEM incident",
+    "description": "Generates alert from FortiSIEM incident where an attacker creates Windows scheduled task.",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
