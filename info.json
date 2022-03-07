@@ -21,6 +21,7 @@
         }
     ],
     "prerequisite": [],
+    "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution pack for compromised credential scenario",
     "summary": "",
