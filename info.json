@@ -20,11 +20,10 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [],
+    "prerequisite": "",
     "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution pack for compromised credential scenario",
-    "summary": "",
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-stolen-credential-leading-to-data-exfiltration\/blob\/develop\/README.md",
     "category": [],
     "supportInfo": "support@fortinet.com",
@@ -34,19 +33,6 @@
     "exported_from": "fortisoar.localhost",
     "exported_by": "CS Admin",
     "contents": {
-        "modules": {
-            "scenario": {
-                "name": "Scenario",
-                "apiName": "scenario"
-            }
-        },
-        "viewTemplates": {
-            "scenario": [
-                "list",
-                "detail",
-                "form"
-            ]
-        },
         "playbooks": [
             {
                 "name": "04 - Use Case - Stolen Credential Leading to Data Exfiltration"
