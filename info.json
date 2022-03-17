@@ -35,7 +35,7 @@
     "contents": {
         "playbooks": [
             {
-                "name": "04 - Use Case - Stolen Credential Leading to Data Exfiltration"
+                "name": "02 - Use Case - Stolen Credential Leading to Data Exfiltration"
             }
         ],
         "recordSets": {
