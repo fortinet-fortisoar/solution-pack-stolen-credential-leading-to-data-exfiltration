@@ -38,18 +38,18 @@ Ensure that the below solution packs are deployed:
 
 ## Contents
 
-1. Connectors
+1. Connector(s)
 
-  |**Sr.No.**|**Connector**|
-  | :- | :- |
-  |1|Active Directory|
-  |2|Fortinet FortiSIEM|
+    |**Sr.No.**|**Connector**|
+    | :- | :- |
+    |1|Active Directory|
+    |2|Fortinet FortiSIEM|
 
-**Warning:** After deployment, this Solution Pack will install or upgrade the stated connectors list.
+    **Warning:** After deployment, this Solution Pack will install or upgrade the stated connectors list.
 
 2. Playbook Collection(s)
 
-    - 02 - Use Case - Stolen Credential Leading to Data Exfiltration:
+    - 02 - Use Case - Stolen Credential Leading to Data Exfiltration (2):
 Following is a list of playbooks under “02 - Use Case - Stolen Credential Leading to Data Exfiltration”
 
     |**Playbook Name**|**Description**
