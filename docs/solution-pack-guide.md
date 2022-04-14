@@ -1,4 +1,4 @@
-# Usage of Lateral Movement and VPN Breach Response Solution Pack
+# Usage of Stolen Credential Leading to Data Exfiltration Solution Pack
 
 ## Use Case Workflow
 
@@ -29,9 +29,3 @@ Refer to the below step to execute the scenarios:
 4. The created Alerts records IRI will be displayed in the Scenario record
 ![Alert Record IRI](media/alertsRecordsIRI.png)
 
-### 2. Investigate Command & Control Response
-
-- Refer to the below step to execute the use-case:
-
-1. Open the “Other / Unknown” type alert in detail view, click on the execute button to execute the “Investigate Lateral Movement & VPN Breach Detection” use-case
-![Use-Case](media/usecase.png)
