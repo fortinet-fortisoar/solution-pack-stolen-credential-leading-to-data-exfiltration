@@ -40,19 +40,19 @@ Ensure that the below solution packs are deployed:
 
 1. Connectors
 
-**Solution Pack**|**Purpose**|**Doc Link**|
-| :- | :- | :- |
-|Active Directory|2.2.0|[Click Here](https://docs.fortinet.com/document/fortisoar/2.2.0/active-directory/154/active-directory-v2-2-0)|
-|IPFortinet FortiSIEMStack|4.3.0|[Click Here](https://docs.fortinet.com/document/fortisoar/4.3.0/fortinet-fortisiem/187/fortinet-fortisiem-v4-3-0)|
+  |**Sr.No.**|**Connector**|
+  | :- | :- |
+  |1|Active Directory|
+  |2|Fortinet FortiSIEM|
 
-**Warning:** After deployment, this Solution Pack will install or upgrade the existing connectors, mentioned above.
+**Warning:** After deployment, this Solution Pack will install or upgrade the stated connectors list.
 
 2. Playbook Collection(s)
 
     - 02 - Use Case - Stolen Credential Leading to Data Exfiltration:
 Following is a list of playbooks under “02 - Use Case - Stolen Credential Leading to Data Exfiltration”
 
-    **Playbook Name**|**Description**
+    |**Playbook Name**|**Description**
     | :- | :- |
     |Generate Alert for Exfiltration(File Transfer)|Generates alert from FortiSIEM incident where an attacker performes outbound file transfer.|
     |Generate Alert for Firewall Configuration Change(Policy Change)|Generates alert from FortiSIEM incident where an attacker gains initial access to the network and make firewall configuration change by changing firewall policy|
@@ -61,4 +61,6 @@ Following is a list of playbooks under “02 - Use Case - Stolen Credential Lead
     |Generate Alert for Persistence(Schedule Task)|Generates alert from FortiSIEM incident where an attacker creates Windows scheduled task.|
     |Generate Alert for Persistence(User Added to Administrator Group)|Generates alert from FortiSIEM incident where the user is added to the Windows Administrator Group.|
     |Generate Alert for Persistence(User Password Reset)|Generates alert from FortiSIEM incident where user created by attacker changes the administrator user password.|
+
+    **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
 
