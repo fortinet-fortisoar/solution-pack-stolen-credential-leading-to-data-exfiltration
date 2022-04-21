@@ -63,7 +63,6 @@ Ensure that the below solution packs are deployed:
 2. Playbook Collection(s)
 
     - 02 - Use Case - Stolen Credential Leading to Data Exfiltration (2):
-Following is a list of playbooks under “02 - Use Case - Stolen Credential Leading to Data Exfiltration”
 
     |**Playbook Name**|**Description**
     | :- | :- |
