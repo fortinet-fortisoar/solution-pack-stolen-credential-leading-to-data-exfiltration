@@ -37,7 +37,7 @@ Go to generated alert and observe the following:
   - **Password Changed Alert:** Select the password change alert (typically assumed to be benign), but in this case, the collaboration panel has multiple comments indicating the indicator (jack and 10.0.1.11)
   - **Recommendations Panel:** Open the Recommendation Panel, and observe that there are alerts such as firewall configuration change suggested as related to this alert (that's because of common indicators).
   - **Escalate to Incident:** Select all suggested alerts and Escalate them to Incident. Observe Incident's correlation graph, and how it further shows Outbound data transfer as well
-  ![Select Scenario](docs/media/attackFlow.png)
+  ![Select Scenario](https://github.com/fortinet-fortisoar/solution-pack-stolen-credential-leading-to-data-exfiltration/raw/develop/docs/media/attackFlow.png)
 
 ## Prerequisite
 
