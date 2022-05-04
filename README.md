@@ -1,6 +1,4 @@
-# Stolen Credential Leading to Data Exfiltration  Solution Pack
-
-## Release Information
+# Release Information
 
 - Solution Pack Version: 1.0.0
 - Minimum Compatible FortiSOAR™ Version: 7.2.0
@@ -11,11 +9,13 @@
 
 ### Introduction
 
-*Stolen Credential Leading to Data Exfiltration* solution pack demonstrates the scenarios and use cases around leaked credentials leading to attacks gaining access to the environment and creating a backdoor to exfiltrate data.
+**Stolen Credential Leading to Data Exfiltration Solution Pack** demonstrates the scenarios and use cases around leaked credentials leading to attacks that attempt to gain access to the environment and create a backdoor to exfiltrate data.
 
 ### Usage
 
-This Solution Pack ships with the following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to understand how to Simulate and Reset Scenario.
+Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to understand how to Simulate and Reset scenarios.
+
+This Solution Pack ships with the following simulation scenarios.
 
 #### 1. Scenario - Stolen Credential Leading to Data Exfiltration
 
@@ -28,7 +28,7 @@ The scenario demonstrates and generates a demo alert for the Alert Type
 - Data Exfiltration
 - Password Reset
 
-Go to generated alert and observe the following:
+Navigate to the generated alert and observe the following:
 
 - An attacker gains access to the Firewall using a leaked credential.
 - The attacker then modifies the firewall configuration to allow RDP Access and laterally moves to a windows box.
@@ -36,7 +36,7 @@ Go to generated alert and observe the following:
 - Observe the following in this scenario:
   - **Password Changed Alert:** Select the password change alert (typically assumed to be benign), but in this case, the collaboration panel has multiple comments indicating the indicator (jack and 10.0.1.11)
   - **Recommendations Panel:** Open the Recommendation Panel, and observe that there are alerts such as firewall configuration change suggested as related to this alert (that's because of common indicators).
-  - **Escalate to Incident:** Select all suggested alerts and Escalate them to Incident. Observe Incident's correlation graph, and how it further shows Outbound data transfer as well
+  - **Escalate to Incident:** Select all suggested alerts and Escalate them to Incident. Observe incident's correlation graph, and how it further shows Outbound data transfer as well
 
   ![Select Scenario](https://github.com/fortinet-fortisoar/solution-pack-stolen-credential-leading-to-data-exfiltration/raw/develop/docs/media/attackFlow.png)
 
